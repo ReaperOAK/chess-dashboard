@@ -1,0 +1,17 @@
+/dashboard
+├── client/                 # Frontend React app
+│   ├── src/
+│   ├── public/
+│   └── package.json
+├── api/                    # Backend PHP files
+│   ├── config/
+│   ├── users/
+│   └── .htaccess
+├── .gitignore
+└── database.sql
+
+After build:
+/build                      # What gets deployed to Hostinger
+├── index.html             # React app
+├── static/                # React assets
+└── api/                   # PHP backend files
