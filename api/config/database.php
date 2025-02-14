@@ -5,6 +5,7 @@ class Database {
     private $username = "u703958259_dashboard";
     private $password = "Oa786ak92*";
     public $conn;
+    
 
     public function getConnection() {
         $this->conn = null;
